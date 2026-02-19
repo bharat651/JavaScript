@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light Coding Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-container">
+        <h1 class="heading">Traffic Light</h1>
+
+        <div class="traffic-light-section">
+            <div class="button-container">
+                <button class="button" id="stopButton" onclick="stopButton()">Stop</button>
+                <button class="button" id="readyButton" onclick="readyButton()">Ready</button>
+                <button class="button" id="goButton" onclick="goButton()">Go</button>
+            </div>
+
+            <div class="traffic-light-container">
+                <div class="light" id="stopLight"></div>
+                <div class="light" id="readyLight"></div>
+                <div class="light" id="goLight"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
